@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>sample-posts | Jyothi Mario </title>
+    <title>a post with github metadata | Jyothi Mario </title>
     <meta name="author" content="Jyothi Mario " />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
+    <meta name="description" content="a quick run down on accessing github metadata." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://stormshadows.github.io/blog/category/sample-posts/">
+    <link rel="canonical" href="https://stormshadows.github.io/sample-posts/external-services/2020/09/28/github-metadata.html">
     
     <!-- Dark Mode -->
     
@@ -114,84 +113,62 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/post.html -->
 
+<div class="post">
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-tag fa-sm"></i> sample-posts </h1>
-    <p class="post-description"> an archive of posts in this category </p>
+    <h1 class="post-title">a post with github metadata</h1>
+    <p class="post-meta">
+      September 28, 2020</p>
+    <p class="post-tags">
+      <a href="/blog/2020">
+        <i class="fas fa-calendar fa-sm"></i> 2020
+      </a>  
+      ·   <a href="/blog/category/sample-posts">
+        <i class="fas fa-tag fa-sm"></i> sample-posts</a>
+        <a href="/blog/category/external-services">
+        <i class="fas fa-tag fa-sm"></i> external-services</a>
+        
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Mar 20, 2023</th>
-          <td>
-              <a class="post-link" href="/sample-posts/toc/2023/03/20/table-of-contents.html">a post with table of contents</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Dec 10, 2022</th>
-          <td>
-              <a class="post-link" href="/sample-posts/external-services/2022/12/10/giscus-comments.html">a post with giscus comments</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Sep 28, 2020</th>
-          <td>
-              <a class="post-link" href="/sample-posts/external-services/2020/09/28/github-metadata.html">a post with github metadata</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Sep 28, 2020</th>
-          <td>
-              <a class="post-link" href="/sample-posts/external-services/2020/09/28/twitter.html">a post with twitter</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 20, 2015</th>
-          <td>
-              <a class="post-link" href="/sample-posts/external-services/2015/10/20/disqus-comments.html">a post with disqus comments</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Oct 20, 2015</th>
-          <td>
-              <a class="post-link" href="/sample-posts/2015/10/20/math.html">a post with math</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jul 15, 2015</th>
-          <td>
-              <a class="post-link" href="/sample-posts/2015/07/15/code.html">a post with code</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">May 15, 2015</th>
-          <td>
-              <a class="post-link" href="/sample-posts/2015/05/15/images.html">a post with images</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Mar 15, 2015</th>
-          <td>
-              <a class="post-link" href="/sample-posts/2015/03/15/formatting-and-links.html">a post with formatting and links</a>
-          </td>
-        </tr>
-      
-      </table>
-    </div>
-  </article>
+  <article class="post-content"><p>A sample blog page that demonstrates the accessing of github meta data.</p>
 
+<h2 id="what-does-github-metadata-do">What does Github-MetaData do?</h2>
+<ul>
+  <li>Propagates the site.github namespace with repository metadata</li>
+  <li>Setting site variables :
+    <ul>
+      <li>site.title</li>
+      <li>site.description</li>
+      <li>site.url</li>
+      <li>site.baseurl</li>
+    </ul>
+  </li>
+  <li>Accessing the metadata - duh.</li>
+  <li>Generating edittable links.</li>
+</ul>
+
+<h2 id="additional-reading">Additional Reading</h2>
+<ul>
+  <li>If you’re recieving incorrect/missing data, you may need to perform a Github API<a href="https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md" target="_blank" rel="noopener noreferrer"> authentication</a>.</li>
+  <li>Go through this <a href="https://jekyll.github.io/github-metadata/" target="_blank" rel="noopener noreferrer">README</a> for more details on the topic.</li>
+  <li>
+<a href="https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md" target="_blank" rel="noopener noreferrer">This page</a> highlights all the feilds you can access with github-metadata.
+<br>
+</li>
+</ul>
+
+<h2 id="example-metadata">Example MetaData</h2>
+<ul>
+  <li>Host Name :</li>
+  <li>URL :</li>
+  <li>BaseURL :</li>
+  <li>Archived :</li>
+  <li>Contributors :</li>
+</ul>
+
+</article>
 </div>
 
     </div>
