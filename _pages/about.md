@@ -20,6 +20,3 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Hey! I am Jyothi Lisha Vas Welcome to my personal website.Hope you are doing good.I am a software developer, who loves to learn,grow and explore technologies and try to give back to the society.I currently live in Moodbidri.I am pursuing my B.E in St Joseph Engineering College Manglore.My skills involve C programming,Python,SQL Basics,HTML. Soft skills involves creativity,flexibility,communication,also love to communicate and share my ideas with people.My intrests involve Reading book,Jogging,sing,dance,play sports like volleyball and football,Also do modelling as a fashion Model.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
