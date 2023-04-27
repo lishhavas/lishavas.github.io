@@ -19,8 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I’m Max's gf ; A curious developer, who loves to learn,grow and explore technologies and try to give back to the society.. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey! I am Jyothi Lisha Vas Welcome to my personal website.Hope you are doing good.I am a software developer, who loves to learn,grow and explore technologies and try to give back to the society.I currently live in Moodbidri.I am pursuing my B.E in St Joseph Engineering College Manglore.My skills involve C programming,Python,SQL Basics,HTML. Soft skills involves creativity,flexibility,communication,also love to communicate and share my ideas with people.My intrests involve Reading book,Jogging,sing,dance,play sports like volleyball and football,Also do modelling as a fashion Model.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
