@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://lishavas.github.io/sitemap.xml
+Sitemap: https://Stormshadows.github.io/sitemap.xml
