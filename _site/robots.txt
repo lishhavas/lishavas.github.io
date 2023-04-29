@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://lishavas.github.io/sitemap.xml
